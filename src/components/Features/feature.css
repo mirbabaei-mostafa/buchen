@@ -1,0 +1,29 @@
+.featureContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 1024px;
+  z-index: 1;
+}
+.featureItsm {
+  position: relative;
+  color: #ffffff;
+}
+.featureImage {
+  border-radius: 7px;
+  object-fit: cover;
+  width: 240px;
+}
+.featureTitle {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font: bold 22px Verdana, sans-serif;
+}
+.featureSubtitle {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  font: bold 16px Verdana, sans-serif;
+}

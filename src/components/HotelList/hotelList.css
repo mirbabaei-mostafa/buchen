@@ -1,0 +1,169 @@
+.hotelListContainer {
+  width: 100%;
+  margin-top: 30px;
+}
+.hotelListWrapper {
+  width: 100%;
+  max-width: 1024px;
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20px;
+}
+.hotelListSearch {
+  flex: 1;
+}
+.hotelListResult {
+  flex: 3;
+}
+.hotelListResult {
+  width: 100%;
+}
+.searchItems {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.searchItemButton {
+  border: solid 1px #006ce4;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  color: #006ce4;
+  font: bold 13px Calibri;
+}
+.hotelSearchTitle {
+  font: bold 22px Calibri;
+}
+.hotelItemBox {
+  display: flex;
+  gap: 10px;
+  border: solid 1px #c1c1c1;
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.hotelItemImageBox {
+  flex: 1;
+}
+.hotelItemImage {
+  border-radius: 10px;
+  width: 200px;
+}
+.hotelItemInfo {
+  flex: 3;
+}
+.hotelItemInfoTitleBox {
+  display: flex;
+}
+.hotelItemInfoTitle {
+  flex: 2;
+}
+.hotelItemInfoTitleLink {
+  color: #006ce4;
+  font: bold 20px Calibri;
+  cursor: pointer;
+}
+.hotelItemInfoTitleLink:hover {
+  color: #324051;
+}
+.hotelItemInfoTitlePunkt {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  align-items: unset;
+}
+path.hotelItemInfoIcon {
+  fill: #f1a11d;
+}
+.hotelItemInfoTitleCity a {
+  font: bold 12px Calibri;
+  cursor: pointer;
+  color: #006ce4;
+  text-decoration: underline;
+}
+.hotelItemInfoTitleNachhaltiger {
+  font: normal 12px Calibri;
+  color: #1e6701;
+}
+.hotelItemInfoTitleNachhaltigerPath {
+  fill: #1e6701;
+}
+.hotelItemInfoTitlePunktBewertungPanel {
+  color: #404140;
+  flex: 3;
+}
+.hotelItemInfoTitlePunktBewertungQualitat {
+  font: bold 15px Calibri;
+  text-align: right;
+}
+.hotelItemInfoTitlePunktBewertung {
+  font: normal 13px Calibri;
+  text-align: right;
+}
+.hotelItemInfoTitlePunktPunktzahl {
+  width: 20px;
+  height: 18px;
+  background-color: #0d2d5d;
+  padding: 6px;
+  color: #fff;
+  font: bold 13px Arial;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.hotelItemInfoBox {
+  display: flex;
+  gap: 10px;
+}
+.hotelItemInfoBoxLeft {
+  flex: 2;
+  border-left: solid 1px #c1c1c1;
+  font: normal 13px Arial;
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+.hotelItemInfoBoxLeftBold {
+  font: bold 13px Arial;
+  margin-bottom: 10px;
+}
+.hotelItemInfoBoxRight {
+  flex: 1;
+  text-align: right;
+  margin-top: auto;
+}
+.hotelItemInfoBoxRightPrise {
+  font: bold 24px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.hotelItemInfoBoxRightReservInfo {
+  font: normal 10px Arial;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hotelItemInfoBoxRightButtonBox {
+}
+.hotelItemInfoBoxRightButton {
+  font: bold 15px Arial, sans-serif;
+  cursor: pointer;
+  background-color: #006ce4;
+  border: solid 1px #006ce4;
+  border-radius: 7px;
+  display: flex;
+  padding: 6px;
+}
+.hotelItemInfoBoxRightButton:hover {
+  background-color: #0d2d5d;
+}
+.hotelItemInfoBoxRightButtonLeft {
+  color: #fff;
+  text-align: left;
+}
+.hotelItemInfoBoxRightButtonRight {
+  color: #fff;
+  text-align: right;
+  align-items: center;
+  padding: 10px 5px;
+}

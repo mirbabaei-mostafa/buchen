@@ -1,0 +1,82 @@
+.bestAuswahlContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  max-width: 1024px;
+}
+.baItem {
+  padding: 0;
+  margin: 0;
+  border: solid 1px #e0e0e0;
+  border-radius: 7px;
+  flex: 1;
+}
+.baImage {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100%;
+}
+.baTitle {
+  font: bold 14px Arial;
+  padding: 0px 10px;
+}
+.baSubtitle {
+  font: normal 12px Arial;
+  padding: 0px 10px;
+}
+.baItemInfo {
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.baPunktzahl {
+  width: 20px;
+  height: 18px;
+  background-color: #0d2d5d;
+  padding: 6px;
+  color: #fff;
+  font: bold 13px Arial;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.baLevel {
+  color: #000;
+  font: normal 14px Arial;
+}
+.baRequest {
+  color: #949494;
+  font: normal 14px Arial;
+}
+.baDescription {
+  color: #000;
+  font: normal 14px Arial;
+  padding: 10px;
+  display: block;
+}
+.baMehr {
+  display: block;
+  margin-top: 15px;
+  border-top: solid 1px #979797;
+  font: normal 14px Arial;
+  padding-top: 10px;
+}
+.homeLink {
+  color: #363636;
+  font: normal 12px Arial;
+  cursor: pointer;
+}
+.homeLink:hover {
+  color: #006ce4;
+}
+.baButton {
+  color: #006ce4;
+  font: normal 14px Arial;
+  padding: 10px;
+  border: solid 1px #006ce4;
+  border-radius: 7px;
+  width: 100%;
+  bottom: 0px;
+}

@@ -1,0 +1,31 @@
+.hotelSearchPannelContainer {
+  width: 100%;
+  border: solid 1px #c1c1c1;
+  border-radius: 5px;
+}
+.hotelSearchPannelTitle {
+  color: #282828;
+  padding: 8px 10px;
+  border-bottom: solid 1px #c1c1c1;
+  font: bold 22px Calibri;
+}
+.hotelSearchPannelList {
+  padding: 10px;
+  color: #282828;
+  font: normal 14px Calibri;
+  border-bottom: solid 1px #c1c1c1;
+}
+.hotelSearchPannelListTitle {
+  font: bold 16px Calibri;
+}
+.hotelSearchCheckbox {
+  accent-color: #c27915;
+}
+.hotelSearchPannelListLink {
+  font: normal 12px Calibri;
+  color: #006ce4;
+  cursor: pointer;
+}
+.hotelSearchPannelListLink:hover {
+  color: #004694;
+}

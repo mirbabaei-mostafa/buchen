@@ -1,0 +1,23 @@
+.hotelsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+  gap: 10px;
+}
+.hotelsItsm {
+  color: #000;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hotelsImage {
+  object-fit: cover;
+  border-radius: 6px;
+  width: 190px;
+}
+.hotelsTitle {
+  font: bold 15px Arial;
+}
+.hotelsSubtitle {
+  font: normal 13px Arial;
+}

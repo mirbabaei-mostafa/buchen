@@ -1,0 +1,44 @@
+.mailingBanner {
+  background-color: #00224f;
+  margin-top: 50px;
+  width: 100%;
+}
+.mailingContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  padding: 25px;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+}
+.mailingTitle {
+  font: bold 26px calibri, sans-serif;
+  margin: 0px;
+}
+.mailingDescription {
+  font: normal 18px calibri, sans-serif;
+  color: #989898;
+}
+.mailingForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.mailinhInput {
+  font: normal 24px calibri, sans-serif;
+  color: #989898;
+  padding: 6px;
+  width: 350px;
+  border-radius: 5px;
+}
+.mailingButton {
+  background-color: #006ce4;
+  color: #fff;
+  font: normal 20px calibri, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 20px;
+}

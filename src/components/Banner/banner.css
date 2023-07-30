@@ -1,0 +1,165 @@
+.banner {
+  width: 100%;
+  height: 400px;
+  background: #003b95 url("banner.webp") no-repeat right top;
+  background-size: cover;
+  display: flex;
+}
+.bannerHotels {
+  width: 100%;
+  height: 400px;
+  background: #003b95 url("hotels.webp") no-repeat right top;
+  background-size: cover;
+  display: flex;
+}
+.bannerCover {
+  background: rgba(0, 23, 58, 0.4);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.bannerContainer {
+  color: #ffffff;
+  width: 100%;
+  height: 180px;
+  max-width: 1024px;
+  display: block;
+  padding: 0px;
+  margin: auto;
+  bottom: 0px;
+}
+.bannerTitle {
+  max-width: 1024px;
+  width: 100%;
+  margin: 20px 0px;
+  font: bold 36px Verdana, sans-serif;
+}
+.bannerDescription {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px;
+  font: bold 18px Tahoma, Verdana, sans-serif;
+}
+
+.searchBar {
+  height: 30px;
+  width: 100%;
+  max-width: 1024px;
+  background-color: #ffffff;
+  border: 4px solid #ffb700;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  position: relative;
+}
+.searchIcon {
+  color: #bdbdbd;
+}
+.searchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+}
+.searchDuration {
+  color: #969696;
+  cursor: pointer;
+}
+.searchDate {
+  position: absolute;
+  top: 40px;
+  z-index: 3;
+}
+.searchGeustInfo {
+  color: #969696;
+  cursor: pointer;
+}
+
+.vocherPanel {
+  width: 250px;
+  background-color: #e7e6e6;
+  position: absolute;
+  top: 57px;
+  border-radius: 8px;
+  z-index: 2;
+}
+.vocherContent {
+  width: 100%;
+  color: #131212;
+}
+.vocherItem {
+  gap: 10px;
+  align-items: center;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.vocherChooser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vocherTitle {
+  font-weight: bold;
+}
+.vocherButton {
+  background-color: #ffffff;
+  border: solid 1px #006ce4;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.vocherButton.disable {
+  background-color: #cecece;
+  border: solid 1px #797979;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.searchButton {
+  color: #ffffff;
+  background-color: #006ce4;
+  border: solid 1px #006ce4;
+  border-radius: 3px;
+  font: bold 18px Verdana, sans-serif;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+.searchButton:hover {
+  background-color: #003b95;
+  border: solid 1px #003b95;
+}
+
+.vocherFooter {
+  align-items: center;
+  width: 200px;
+  display: block;
+  padding: 15px;
+}
+.vocherFoorerText {
+  width: 200px;
+  display: block;
+  font: normal 13px sans-serif;
+}
+.alterChooserContainer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.alterChooser {
+  background-color: #ffffff;
+  border: solid 1px #006ce4;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
